@@ -1,7 +1,9 @@
+//memoization: storing the repeating values/functions in f[] also called as DP array
 // in recursion concept while calculating  fibonacci , we calculated fibonacci of 2, ,3,4,5 etc are calculated multiple tines
 // in DP instead of calculating it in multiple times , we store that fibonacci in an array and whenever it call for fib(2) or anything instead of calculating using function we access it form the array
+package DP;
 
-public class fibonacci {//O(n)
+public class fibonacci { //O(n)
 
   public static int fib(int n, int f[]) {
     if (n == 0 || n == 1) {
