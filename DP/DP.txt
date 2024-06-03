@@ -1,16 +1,28 @@
-    𝘿𝙋 : an optimized recursion
+    ⁡⁣⁣⁢𝘿𝙋⁡: an optimized recursion
 
-    𝘿𝙋: dynamic programming is a technique in computer  programming that helps to effeciently solve class of problems that have overlapping subproblems and optimal substructures
+    ⁡⁣⁣⁢𝘿𝙋:⁡ dynamic programming is a technique in computer  programming that helps to effeciently solve class of problems that have overlapping subproblems and optimal substructures
 
- 𝙝𝙤𝙬 𝙩𝙤 𝙞𝙙𝙚𝙣𝙩𝙞𝙛𝙮 𝘿𝙋?
-    a. optimal problem
+⁡⁣⁣⁢ 𝙝𝙤𝙬 𝙩𝙤 𝙞𝙙𝙚𝙣𝙩𝙞𝙛𝙮 𝘿𝙋?
+⁡    a. optimal problem
     b. some choices is given (multiple branches in the given tree)
 
-𝙬𝙖𝙮𝙨 𝙤𝙛 𝘿𝙋
-    𝗺𝗲𝗺𝗼𝗶𝘇𝗮𝘁𝗶𝗼𝗻(𝘁𝗼𝗽 𝗱𝗼𝘄𝗺)
-        normal recursion
+⁡⁣⁣⁢𝙬𝙖𝙮𝙨 𝙤𝙛 𝘿𝙋
+⁡⁣⁣⁢    𝗺𝗲𝗺𝗼𝗶𝘇𝗮𝘁𝗶𝗼𝗻(𝘁𝗼𝗽 𝗱𝗼𝘄𝗺)
+⁡        normal recursion
         store subproblems in storage and reuse whenever required
 
-    𝘁𝗮𝗯𝘂𝗹𝗮𝘁𝗶𝗼𝗻(𝗯𝗼𝘁𝘁𝗼𝗺 𝘂𝗽)
-        dp using iteration without using recursion
+⁡⁣⁣⁢    𝘁𝗮𝗯𝘂𝗹𝗮𝘁𝗶𝗼𝗻(𝗯𝗼𝘁𝘁𝗼𝗺 𝘂𝗽)
+⁡        dp using iteration without using recursion
+            1.create table
+            2.initialize the base case values
+            3.meaning for index
+            4.fill from small to large
         more effcient than memoization
+
+⁡⁣⁣⁢𝟳 𝗶𝗺𝗽𝗼𝗿𝘁𝗮𝗻𝘁 𝗤𝘀
+⁡    0-1 knapsack
+    unbounded knapsack
+    LCS longest common subsequence
+    kadane's algorithm
+    catalan Number
+    DP on grid (2d arrays)

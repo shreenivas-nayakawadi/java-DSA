@@ -3,9 +3,18 @@
 // in DP instead of calculating it in multiple times , we store that fibonacci in an array and whenever it call for fib(2) or anything instead of calculating using function we access it form the array
 package DP;
 
-public class fibonacci { //O(n)
+public class fibonacci {
 
-  public static int fib(int n, int f[]) {// using memoization method
+  //O(2^n)
+  public static int fib2(int n) { // using recursion method
+    if (n == 0 || n == 1) {
+      return n;
+    }
+    return fib2(n - 1) + fib2(n - 2);
+  }
+
+  //O(n)
+  public static int fib(int n, int f[]) { // using memoization method
     if (n == 0 || n == 1) {
       return n;
     }
@@ -16,7 +25,7 @@ public class fibonacci { //O(n)
     return f[n];
   }
 
-  public static int fib1(int n) {// using tabulation method
+  public static int fib1(int n) { // using tabulation method
     int dp[] = new int[n + 1];
     dp[0] = 0;
     dp[1] = 1;
@@ -31,5 +40,6 @@ public class fibonacci { //O(n)
     int f[] = new int[n + 1];
     System.out.println(fib(5, f));
     System.out.println(fib1(5));
+    System.out.println(fib2(5));
   }
 }
